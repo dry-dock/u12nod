@@ -8,12 +8,6 @@ export NVM_DIR="/root/.nvm"
 # add source of nvm to .bashrc - allows user to use nvm as a command
 echo "source ~/.nvm/nvm.sh" >> .bashrc
 
-# Update npm to latest version
-npm install npm -g
-
-# Install grunt-cli
-npm install -g grunt-cli
-
 for file in /tmp/version/*;
 do
   $file
