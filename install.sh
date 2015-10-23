@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 sudo npm install -g grunt-cli mocha vows phantomjs casperjs;
 
-echo "================ Upgrading selenium =================="
+echo "================ Installing selenium =================="
 sudo mkdir -p /srv;
 cd /srv && sudo wget http://selenium-release.storage.googleapis.com/2.48/selenium-server-standalone-2.48.2.jar;
 
