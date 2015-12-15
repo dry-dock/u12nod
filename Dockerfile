@@ -1,5 +1,5 @@
 FROM drydock/u12:prod
 
-ADD . /tmp
+ADD . /u12nod
 
-RUN /tmp/install.sh && rm -rf /tmp
+RUN /u12nod/install.sh

@@ -12,7 +12,7 @@ cd /srv && sudo wget http://selenium-release.storage.googleapis.com/2.48/seleniu
 echo "=============== Installing bower globally ============="
 sudo npm install -g bower
 
-for file in /tmp/version/*;
+for file in /u12nod/version/*;
 do
   $file
 done
